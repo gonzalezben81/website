@@ -1,0 +1,28 @@
+name: "my-website"
+navbar:
+  title: "My Website"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Shiny Applications"
+      icon: fa-gear
+      menu:
+        - text: "Text Analysis"
+          href: text.html
+        - text: "---------"
+        - text: "Pitch Analysis"
+          href: pitch.html
+#        - text: "---------"
+#        - text: "Web Scraper"
+#          href: web.html
+#        - text: "---------"
+#        - text: "SQL Application"
+#          href: sql.html
+    - text: "About"
+      icon: fa-info
+      href: about.html
+  right:
+    - icon: fa-question fa-lg
+      href: https://example.com
